@@ -1,0 +1,14 @@
+syntax = "proto3";
+package alexey.alexey;
+
+import "gogoproto/gogo.proto";
+import "alexey/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "alexey/x/alexey/types";
+
+// GenesisState defines the alexey module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
