@@ -1,12 +1,15 @@
 version: 1
 accounts:
   - name: alice
-    coins: ["20000token", "200000000stake"]
+    mnemonic: "slide moment original seven milk crawl help text kick fluid boring awkward doll wonder sure fragile plate grid hard next casual expire okay body"
+    coins: ["200000000uspn","20000token", "200000000stake"]
   - name: bob
-    coins: ["10000token", "100000000stake"]
+    mnemonic: "trap possible liquid elite embody host segment fantasy swim cable digital eager tiny broom burden diary earn hen grow engine pigeon fringe claim program"
+    coins: ["200000000uspn","20000token", "200000000stake"]
 validators:
   - name: alice
     bonded: "100000000stake"
+    staked: "100000000uspn"
 client:
   openapi:
     path: "docs/static/openapi.yml"
@@ -16,4 +19,4 @@ client:
     path: "vue/src/store"
 faucet:
   name: bob
-  coins: ["5token", "100000stake"]
+  coins: ["100000uspn","5token", "100000stake"]
