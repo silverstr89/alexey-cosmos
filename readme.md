@@ -1,6 +1,8 @@
 # alexey
 **alexey** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
 
+for genesis file https://github.com/tendermint/spn/issues/980#issuecomment-1276772187
+
 ## Get started
 
 ```
